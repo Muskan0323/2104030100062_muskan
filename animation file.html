@@ -1,0 +1,120 @@
+<html>
+	<head>
+		<title>(CSS3 Animation)</title>
+		<style type="text/css">
+			div
+			{
+				height:250px;
+				width:300px;
+				font-size:24px;
+				font-weight:bold;
+				color:#FF00FF;
+				background-color:#008080;
+				transition:5s;
+				border-radius:20%
+			}
+			#TranslateDiv:hover
+            {
+                -webkit-transform:translate(150px,150px);
+                   -moz-transform:translate(150px,150px);
+                    -ms-transform:translate(150px,150px);
+                     -o-transform:translate(150px,150px);
+                        transform:translate(150px,150px);
+                      background-color:#FFA07A;
+                      color:#F08080; 
+            }
+			#RotateDiv:hover
+            {
+                -webkit-transform:rotate(360deg);
+                   -moz-transform:rotate(360deg);
+                    -ms-transform:rotate(360deg);
+                     -o-transform:rotate(360deg);
+                        transform:rotate(360deg);
+                      background-color:#00FFFF;
+                      color:white; 
+         
+            }
+			#RotateDiv3D:hover{
+				-webkit-transform:rotate3d(1,0,1,180deg);
+                   -moz-transform:rotate3d(1,0,1,180deg);
+                    -ms-transform:rotate3d(1,0,1,180deg);
+                     -o-transform:rotate3d(1,0,1,180eg);
+                        transform:rotate3d(1,0,1,180deg);
+                      background-color:#00FFFF;
+                      color:White; 
+         
+			}
+            #SkewDiv:hover
+            {
+                -webkit-transform:skew(45deg);
+                   -moz-transform:skew(45deg);
+                    -ms-transform:skew(45deg);
+                     -o-transform:skew(45deg);
+                        transform:skew(45deg);
+                      background-color:Blue;
+                      color:Yellow; 
+            }
+            #ScaleDiv:hover
+            {
+                -webkit-transform:scale(1.0,0.5);
+                   -moz-transform:scale(1.0,0.5);
+                    -ms-transform:scale(1.0,0.5);
+                     -o-transform:scale(1.0,0.5);
+                        transform:scale(1.0,0.5);
+                      background-color:Blue;
+                      color:Yellow; 
+            }
+			#OpacityDiv:hover
+            {
+                opacity:1;
+            }
+            #RGBADiv:hover
+            {
+                background:rgba(128,128,0,0.1);
+            }
+            #BoxShadowDiv:hover
+            {
+                box-shadow:0px 0px 30px #f08080;
+            }
+            #TextShadowDiv:hover
+            {
+                text-shadow:3px 3px 3px #FF0000;
+            }
+			#BorderRadiusDiv:hover
+			{
+				border-radius:50%;
+			}
+			#OverFlowDiv{overflow:auto;}
+			
+		</style>
+			
+	</head>
+	
+	<body>
+		<body>
+        <div id="TranslateDiv">
+		<img src="images/a8.jpg" alt=" Image 1" style="height:100%;width:100%; 	border-radius:20%" />
+		</div><hr>
+        <div id="RotateDiv">
+		<img src="images/b4.jpg" alt=" Image 2" style="height:100%;width:100%;border-radius:20%" />
+		</div><hr>
+		<div id="RotateDiv3D">
+		<img src="images/a1.jpg" alt=" Image 3" style="height:100%;width:100%;border-radius:20%" />
+		</div><hr />
+        <div id="SkewDiv">
+	    <iframe width="460" height="250" src="https://www.youtube.com/embed/DSxT6uC5h74" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div><hr />
+        <div id="ScaleDiv">
+		<a href="https://i.redd.it/mro8mdnd1zo31.jpg"></a>
+		<img src="images/b8.jpg" alt=" Image 4" style="height:100%;width:100%;border-radius:20%" />
+		</div><hr />
+		<div id="BorderRadiusDiv">
+		<img src="images/a9.jpg" alt=" Image 5" style="height:100%;width:100%;border-radius:50%" />
+		</div><hr />
+		<div id="OverFlowDiv">
+		<img src="images/a1.jpg" alt=" Image 6" style="height:500%;width:100%;" />
+		</div><hr />
+    </body>
+    </body>
+	
+</html>
