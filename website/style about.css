@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+}
+body {
+  background: url(./photos/pexels-photo-546819.jpeg);
+  color: white;
+}
+.logo {
+  width: 5vw;
+  height: 3.5vw;
+  margin: auto;
+}
+nav, ul, li {
+  display: inline;
+  position: relative;
+  list-style-type: none;
+  padding: 25px;
+  text-align: center;
+  margin: 0;
+ margin-right: 0px;
+ margin-left: 0px;
+
+}
+nav {
+  height: 5px;
+  position: fixed;
+  background: black;
+  opacity: 0.9;
+  color: white;
+  width: 100%;
+}
+ul {
+  margin-left: 10%;
+  margin-right: 0px;
+}
+h2 {
+  font-size: 45px;
+}
+h1 {
+  font-size: 55px;
+  color: orange;
+}
+.description {
+  text-align: left;
+  float: left;
+  position: relative;
+  padding: auto;
+  margin: auto;
+  margin-top: 10%;
+  margin-left: 5%;
+}
+.container {
+  text-align: center;
+  float: right;
+  position: relative;
+  padding: auto;
+  margin: auto;
+  margin-top: 15%;
+  margin-right: 15%;
+  background:#736C66, transparent(0.5);
+
+}
+.card {
+  background: black;
+  opacity: 1;
+}
+.btn-button {
+  border-radius: 7px;
+  background: orange;
+}
+.btn-button:hover{
+  background: #FE0401;
+}
+.brief {
+  font-size: 30px;
+}
+h3 {
+  color: #F3EEEE;
+}
+.socialc {
+  padding: 15px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: #26FBE7;
+}
+.aboutpagebody {
+  background: none;
+}
+.aboutshead {
+  margin: auto;
+  margin-top: 35px;
+  background: #2D3938;
+  color: white;
+  text-align: center;
+  position: relative;
+  height: 30px;
+  weight: 100%;
+  padding: 10px;
+  font-size: 25px;
+}
+.frequently {
+  text-decoration: center;
+  font-size: 60px;
+}
+.aboutmain {
+  text-align: left;
+  margin-left: 5%;
+  margin-right: 5%;
+ 
+}
+.personalP {
+  width: 60px;
+  height: 60px;
+}
+.bigimage1 {
+  margin: auto;
+}
+.descriptionindetails {
+  position: center;
+  text-align: left;
+  padding: auto;
+  margin: auto;
+  margin-left: 17%;
+  margin-right: 17%;
+  font-size: 25px;
+}
+h1, h2, h3 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
